@@ -8,7 +8,7 @@ table {
 }
 
 td {
-    border: solid 1px rgb(75, 101, 147);
+    border: solid 1px #4b6593;
     padding: 0;
 }
 
@@ -25,8 +25,8 @@ label {
 }
 
 label.checked-box {
-    background: rgb(0, 175, 6);
-    color:rgb(255, 255, 255);
+    background: #00af06;
+    color:#fff;
 }
 
 input[type='checkbox'] {
