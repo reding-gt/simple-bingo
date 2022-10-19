@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <head>
-    <title>.js test</title>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
-    <link href="./styles/styles.css" rel="stylesheet">
+    <title>bingo-board</title>
+    <link href="./styles/styles.min.css" rel="stylesheet">
 </head>
 <body>
-    <p>howdy</p>
-    <div id="console-container"></div>
-    <script src="./scripts/consoleHelper.js"></script>
-    <script src="./scripts/test.js"></script>
+    <div id="container">
+        <table id="bingo-board"></table>
+        <button id="reset-board" onclick="resetBoard()">Reset Board</button>
+    </div>
+    <script src="./scripts/bingo-script.js"></script>
 </body>
 </html>
